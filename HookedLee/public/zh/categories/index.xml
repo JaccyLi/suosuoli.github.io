@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on HookedLee</title>
+    <link>https://suosuoli.github.io/zh/categories/</link>
+    <description>Recent content in Categories on HookedLee</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    
+      <managingEditor>example@example.com (HookedLee)</managingEditor>
+    
+    
+      <webMaster>example@example.com (HookedLee)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, suosuoli/锁锁里</copyright>
+    
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="https://suosuoli.github.io/zh/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
