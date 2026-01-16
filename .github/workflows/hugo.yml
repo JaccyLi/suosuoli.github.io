@@ -36,9 +36,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
-          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -47,13 +44,8 @@ jobs:
           extended: true
 
       - name: Build with Hugo
-        env:
-          # For local testing, you can override the baseURL via environment variable
-          # HUGO_BASEURL: "https://jaccyli.github.io/suosuoli.github.io/"
         run: |
-          hugo \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}"
+          hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
