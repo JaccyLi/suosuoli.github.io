@@ -245,6 +245,57 @@ If you want to use a custom domain:
 
 ## Troubleshooting
 
+### 404 Error When Accessing GitHub Pages URL
+
+If you see a 404 error at https://jaccyli.github.io/suosuoli.github.io/, follow these steps:
+
+#### Step 1: Verify GitHub Pages is Enabled
+
+1. Go to: https://github.com/jaccyli/suosuoli.github.io/settings/pages
+2. Check **"Source"** - It MUST be set to **"GitHub Actions"**
+3. If it shows "None" or "Deploy from a branch", change it to "GitHub Actions"
+4. This will automatically trigger a deployment
+
+#### Step 2: Check Repository Visibility
+
+1. Go to: https://github.com/jaccyli/suosuoli.github.io/settings
+2. Under "Danger Zone", verify repository is **Public**
+3. GitHub Pages requires **Public** repositories for free accounts
+4. If it's Private, either:
+   - Make it Public (recommended)
+   - Upgrade to GitHub Pro
+
+#### Step 3: Check GitHub Actions Status
+
+1. Go to: https://github.com/jaccyli/suosuoli.github.io/actions
+2. Look for recent workflow runs
+3. **Green checkmark** ✓ = Success, wait a few minutes and refresh
+4. **Red X** ✗ = Failed, click on it to see error logs
+5. **Yellow dot** = Still running, wait for completion
+
+#### Step 4: Wait for DNS Propagation
+
+After a successful deployment:
+- Wait 1-2 minutes for DNS to propagate
+- Clear your browser cache (Ctrl+Shift+R or Cmd+Shift+R)
+- Try accessing the URL again
+
+#### Step 5: Verify Deployment Artifact
+
+If Actions succeeded but site still shows 404:
+1. Go to Actions tab
+2. Click on the latest successful workflow run
+3. Scroll to "Upload artifact" step
+4. Verify the artifact was uploaded (should show ~600KB)
+5. Check "Deploy to GitHub Pages" step succeeded
+
+#### Quick Diagnostic Script
+
+Run this script to check everything:
+```bash
+./check-deployment.sh
+```
+
 ### Language Switch Not Working
 
 **Problem**: Clicking the language switch doesn't change language.
