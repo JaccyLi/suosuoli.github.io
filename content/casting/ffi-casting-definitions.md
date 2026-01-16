@@ -2,6 +2,7 @@
 title: "FFI Fly Casting Definitions (2025 Edition)"
 date: 2026-01-16
 tags: ["casting", "FFI", "definitions", "education"]
+pin: true
 ---
 
 # FFI Fly Casting Definitions

@@ -2,6 +2,7 @@
 title: "FFI 飞钓抛投定义 (2025版)"
 date: 2026-01-16
 tags: ["casting", "FFI", "definitions", "education"]
+pin: true
 ---
 
 # FFI 飞钓抛投定义

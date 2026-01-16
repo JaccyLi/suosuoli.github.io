@@ -58,8 +58,35 @@
   {{ end }}
   <ul class="blog-posts">
     {{ $currentYear := 0 }}
-    {{ range .Pages }}
-    {{ if not .Params.hidden }}
+    {{ $pinned := where .Pages "Params.pin" true }}
+    {{ $unpinned := where .Pages "Params.pin" "!=" true }}
+    {{ $pinned = where $pinned "Params.hidden" "!=" true }}
+    {{ $unpinned = where $unpinned "Params.hidden" "!=" true }}
+    {{ range $pinned }}
+    {{ if .Site.Params.groupByYear }}
+    {{ $year := .Date.Year }}
+    {{ if ne $year $currentYear }}
+    <h3>{{ $year }}</h3>
+    {{ $currentYear = $year }}
+    {{ end }}
+    {{ end }}
+    <li>
+      <span class="{{ if .Site.Params.groupByYear }} grouped {{ else }} ungrouped {{ end }}">
+        <i>
+          <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+            {{ if .Site.Params.groupByYear }}
+            {{ .Date.Format (default "02 Jan." .Site.Params.dateFormat) }}
+            {{ else }}
+            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+            {{ end }}
+          </time>
+        </i>
+      </span>
+      <span style="color: #e67e22; margin-right: 4px;">📌</span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+    {{ range $unpinned }}
     {{ if .Site.Params.groupByYear }}
     {{ $year := .Date.Year }}
     {{ if ne $year $currentYear }}
@@ -81,11 +108,12 @@
       </span>
       <a href="{{ .Permalink }}">{{ .Title }}</a>
     </li>
-    {{ end }}
     {{ else }}
+    {{ if eq (len $pinned) 0 }}
     <li>
       No posts yet
     </li>
+    {{ end }}
     {{ end }}
   </ul>
   {{ if .Data.Singular }}
