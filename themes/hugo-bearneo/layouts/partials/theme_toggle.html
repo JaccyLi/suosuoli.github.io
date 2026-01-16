@@ -20,9 +20,11 @@
             }
         }
 
-        // Initialize theme
+        // Initialize theme - default to dark if no saved preference
         if (savedTheme) {
             setTheme(savedTheme);
+        } else {
+            setTheme('dark');
         }
 
         // Toggle theme on button click - simple toggle between light and dark
