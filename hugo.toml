@@ -8,6 +8,9 @@ baseURL = "https://jaccyli.github.io/suosuoli.github.io/"
 
 theme = "hugo-bearneo"
 
+# Canonify URLs to include the full baseURL (fixes image paths for GitHub Pages subdirectory)
+canonifyURLs = true
+
 # 网站的名称，同时将应用到生成的 HTML 元数据中
 # The name of the website, which will also be applied to the generated HTML metadata.
 title = "HookedLee"
