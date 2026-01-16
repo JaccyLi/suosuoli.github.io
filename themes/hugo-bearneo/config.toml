@@ -1,0 +1,10 @@
+# Hugo versions the theme supports
+[module]
+  [module.hugoVersion]
+    min = "0.110.0"
+
+# Allow raw HTML in markdown
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

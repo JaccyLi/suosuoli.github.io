@@ -1,0 +1,41 @@
+[home]
+other = "首页"
+
+[casting]
+other = "抛投"
+
+[tying]
+other = "绑钩"
+
+[angling]
+other = "垂钓"
+
+[bio]
+other = "飞钓昆虫学"
+
+[gear]
+other = "装备"
+
+[blog]
+other = "博客"
+
+[languageSwitch]
+other = "English"
+
+[darkMode]
+other = "深色模式"
+
+[lightMode]
+other = "浅色模式"
+
+[backToHome]
+other = "← 返回首页"
+
+[readMore]
+other = "阅读更多"
+
+[allPosts]
+other = "所有文章"
+
+[search]
+other = "搜索..."

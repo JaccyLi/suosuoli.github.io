@@ -1,0 +1,12 @@
+<a href="{{ "" | relLangURL }}">{{ i18n "home" }}</a>
+<a href="{{ "casting" | relLangURL }}">{{ i18n "casting" }}</a>
+<a href="{{ "tying" | relLangURL }}">{{ i18n "tying" }}</a>
+<a href="{{ "angling" | relLangURL }}">{{ i18n "angling" }}</a>
+<a href="{{ "bio" | relLangURL }}">{{ i18n "bio" }}</a>
+<a href="{{ "gear" | relLangURL }}">{{ i18n "gear" }}</a>
+{{ range .Site.Menus.main }}
+<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+{{ end }}
+{{ with .Site.GetPage "/blog" }}
+<a href="{{ "blog/" | relLangURL }}">{{ i18n "blog" }}</a>
+{{ end }}

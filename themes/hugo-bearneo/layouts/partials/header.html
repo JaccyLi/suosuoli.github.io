@@ -1,0 +1,29 @@
+<div class="header-container">
+  <a href="{{ "" | relURL }}" class="title">
+    <h1>{{ .Site.Title }}</h1>
+  </a>
+
+  <!-- Top Right Controls -->
+  <div class="header-controls">
+    <!-- Language Switcher -->
+    {{ if .IsTranslated }}
+    {{ range .Translations }}
+    <a href="{{ .Permalink }}" hreflang="{{ .Lang }}" class="lang-switch">{{ i18n "languageSwitch" }}</a>
+    {{ end }}
+    {{ else if hugo.IsMultilingual }}
+    {{ range .Site.Languages }}
+    {{ if ne .Lang $.Site.Language.Lang }}
+    <a href="{{ .Lang | relLangURL }}" hreflang="{{ .Lang }}" class="lang-switch">{{ i18n "languageSwitch" }}</a>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
+    <!-- Dark Mode Toggle -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+      <span class="sun-icon">☀️</span>
+      <span class="moon-icon">🌙</span>
+    </button>
+  </div>
+</div>
+
+<nav>{{- partial "nav.html" . -}}</nav>

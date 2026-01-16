@@ -1,0 +1,41 @@
+[home]
+other = "Home"
+
+[casting]
+other = "Casting"
+
+[tying]
+other = "Tying"
+
+[angling]
+other = "Angling"
+
+[bio]
+other = "Bio"
+
+[gear]
+other = "Gear"
+
+[blog]
+other = "Blog"
+
+[languageSwitch]
+other = "中文"
+
+[darkMode]
+other = "Dark Mode"
+
+[lightMode]
+other = "Light Mode"
+
+[backToHome]
+other = "← Back to Home"
+
+[readMore]
+other = "Read more"
+
+[allPosts]
+other = "All posts"
+
+[search]
+other = "Search..."
