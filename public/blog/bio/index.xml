@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bio on HookedLee</title>
+    <link>https://suosuoli.com/blog/bio/</link>
+    <description>Recent content in Bio on HookedLee</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+      <managingEditor>example@example.com (HookedLee)</managingEditor>
+    
+    
+      <webMaster>example@example.com (HookedLee)</webMaster>
+    
+    
+    <copyright>Copyright © 2024-2025, suosuoli/锁锁里</copyright>
+    
+    
+    <lastBuildDate>Mon, 19 Jan 2026 00:00:00 +0000</lastBuildDate>
+    
+    
+    <follow_challenge>
+        <feedId>00000000000000000</feedId>
+        <userId>00000000000000000</userId>
+    </follow_challenge>
+    
+    <atom:link href="https://suosuoli.com/blog/bio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Suosuoli</title>
+      <link>https://suosuoli.com/p/about-suosuoli/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate><author>example@example.com (HookedLee)</author>
+      <guid>https://suosuoli.com/p/about-suosuoli/</guid>
+      <description>&lt;h1 id=&#34;about-suosuoli&#34;&gt;About Suosuoli&lt;/h1&gt;&#xA;&lt;p&gt;Suosuoli is a passionate fly fishing angler, tech blogger, and open source contributor.&lt;/p&gt;&#xA;&lt;h2 id=&#34;fly-fishing-journey&#34;&gt;Fly Fishing Journey&lt;/h2&gt;&#xA;&lt;p&gt;Suosuoli&amp;rsquo;s love for fly fishing began with a pursuit of nature and the art of angling. Through precise casting techniques, carefully tied flies, and deep research into fish behavior, he enjoys every moment on the water. Fly fishing is not just a sport, but a way to connect with nature through craft, skill, and adventure.&lt;/p&gt;&#xA;&lt;p&gt;On this blog, Suosuoli shares insights from his fly fishing journey, including casting techniques, fly tying tutorials, gear reviews, and explorations of aquatic ecosystems.&lt;/p&gt;&#xA;&lt;h2 id=&#34;digital-world&#34;&gt;Digital World&lt;/h2&gt;&#xA;&lt;p&gt;Beyond fly fishing, Suosuoli is active in the tech community, passionate about sharing knowledge and contributing to open source projects.&lt;/p&gt;&#xA;&lt;h3 id=&#34;github&#34;&gt;GitHub&lt;/h3&gt;&#xA;&lt;p&gt;You can find Suosuoli&amp;rsquo;s open source projects and code contributions on &lt;a href=&#34;https://github.com/JaccyLi&#34;&gt;GitHub&lt;/a&gt;. From tool development to documentation, he actively participates in building and improving various technical projects.&lt;/p&gt;&#xA;&lt;h3 id=&#34;bilibili&#34;&gt;Bilibili&lt;/h3&gt;&#xA;&lt;p&gt;Follow Suosuoli&amp;rsquo;s &lt;a href=&#34;https://space.bilibili.com/162996694?spm_id_from=333.1007.0.0&#34;&gt;Bilibili channel&lt;/a&gt;, where he shares fly fishing related video content, including casting tutorials, gear reviews, and outdoor adventure records.&lt;/p&gt;&#xA;&lt;h2 id=&#34;community&#34;&gt;Community&lt;/h2&gt;&#xA;&lt;p&gt;Suosuoli believes in the power of knowledge sharing. Whether it&amp;rsquo;s fly fishing techniques or technical experiences, he is always eager to exchange ideas and learn with the community. Through this blog, he hopes to connect with other fly fishing enthusiasts and tech enthusiasts to grow together.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Want to learn more?&lt;/strong&gt; Explore other articles on this site, or connect with Suosuoli through the social platforms above.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tight lines and good fishing!&lt;/strong&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

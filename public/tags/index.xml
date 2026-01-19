@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on HookedLee</title>
-    <link>http://suosuoli.com/tags/</link>
+    <link>https://suosuoli.com/tags/</link>
     <description>Recent content in Tags on HookedLee</description>
     <generator>Hugo</generator>
     <language>en-US</language>
@@ -16,7 +16,7 @@
     <copyright>Copyright © 2024-2025, suosuoli/锁锁里</copyright>
     
     
-    <lastBuildDate>Fri, 16 Jan 2026 11:18:20 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 00:00:00 +0000</lastBuildDate>
     
     
     <follow_challenge>
@@ -24,61 +24,33 @@
         <userId>00000000000000000</userId>
     </follow_challenge>
     
-    <atom:link href="http://suosuoli.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Guide</title>
-      <link>http://suosuoli.com/blog/guide/</link>
-      <pubDate>Fri, 16 Jan 2026 11:18:20 +0800</pubDate><author>example@example.com (HookedLee)</author>
-      <guid>http://suosuoli.com/blog/guide/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Markdown</title>
-      <link>http://suosuoli.com/blog/markdown/</link>
-      <pubDate>Fri, 16 Jan 2026 11:18:20 +0800</pubDate><author>example@example.com (HookedLee)</author>
-      <guid>http://suosuoli.com/blog/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Syntax</title>
-      <link>http://suosuoli.com/blog/syntax/</link>
-      <pubDate>Fri, 16 Jan 2026 11:18:20 +0800</pubDate><author>example@example.com (HookedLee)</author>
-      <guid>http://suosuoli.com/blog/syntax/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tutorial</title>
-      <link>http://suosuoli.com/blog/tutorial/</link>
-      <pubDate>Fri, 16 Jan 2026 11:18:20 +0800</pubDate><author>example@example.com (HookedLee)</author>
-      <guid>http://suosuoli.com/blog/tutorial/</guid>
-      <description></description>
-    </item>
+    <atom:link href="https://suosuoli.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Casting</title>
-      <link>http://suosuoli.com/blog/casting/</link>
+      <link>https://suosuoli.com/blog/casting/</link>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate><author>example@example.com (HookedLee)</author>
-      <guid>http://suosuoli.com/blog/casting/</guid>
+      <guid>https://suosuoli.com/blog/casting/</guid>
       <description></description>
     </item>
     <item>
       <title>Definitions</title>
-      <link>http://suosuoli.com/blog/definitions/</link>
+      <link>https://suosuoli.com/blog/definitions/</link>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate><author>example@example.com (HookedLee)</author>
-      <guid>http://suosuoli.com/blog/definitions/</guid>
+      <guid>https://suosuoli.com/blog/definitions/</guid>
       <description></description>
     </item>
     <item>
       <title>Education</title>
-      <link>http://suosuoli.com/blog/education/</link>
+      <link>https://suosuoli.com/blog/education/</link>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate><author>example@example.com (HookedLee)</author>
-      <guid>http://suosuoli.com/blog/education/</guid>
+      <guid>https://suosuoli.com/blog/education/</guid>
       <description></description>
     </item>
     <item>
       <title>FFI</title>
-      <link>http://suosuoli.com/blog/ffi/</link>
+      <link>https://suosuoli.com/blog/ffi/</link>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate><author>example@example.com (HookedLee)</author>
-      <guid>http://suosuoli.com/blog/ffi/</guid>
+      <guid>https://suosuoli.com/blog/ffi/</guid>
       <description></description>
     </item>
   </channel>

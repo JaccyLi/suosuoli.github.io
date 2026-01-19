@@ -16,9 +16,6 @@ other = "Bio"
 [gear]
 other = "Gear"
 
-[blog]
-other = "Blog"
-
 [languageSwitch]
 other = "中文"
 

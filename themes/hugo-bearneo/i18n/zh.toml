@@ -5,19 +5,16 @@ other = "首页"
 other = "抛投"
 
 [tying]
-other = "绑钩"
+other = "毛钩绑制"
 
 [angling]
-other = "垂钓"
+other = "实战作钓"
 
 [bio]
 other = "飞钓昆虫学"
 
 [gear]
 other = "装备"
-
-[blog]
-other = "博客"
 
 [languageSwitch]
 other = "English"
